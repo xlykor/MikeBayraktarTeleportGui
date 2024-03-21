@@ -3,7 +3,7 @@
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By ShieldCrpyt"; -- what the text says (ofc)
+Text = "Script Made By ShieldCrypt"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -47,7 +47,7 @@ button.Size = UDim2.new(0, 140, 0, 20)
 button.Parent = frame
 
 local madeBy = Instance.new("TextLabel")
-madeBy.Text = "Script Made By ShieldCrpyt"
+madeBy.Text = "Script Made By ShieldCrypt"
 madeBy.Position = UDim2.new(0, 5, 0, 75)
 madeBy.Size = UDim2.new(0, 140, 0, 20)
 madeBy.TextColor3 = Color3.new(1, 1, 1)
